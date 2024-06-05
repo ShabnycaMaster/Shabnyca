@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Żabnica i Mała Fatra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #2c3e50;
+            background-color: honeydew;
+        }
+        h3,h2 {
+            color: #2c3e50;
+        }
+        p{
+            color: darkcyan;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #006064;
+            color: honeydew;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: honeydew;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        .hero {
+            background: url('https://i.wpimg.pl/5321x0/filerepo.grupawp.pl/api/v1/display/embed/d4f4ed09-6566-4631-95fb-7b4e5432a82b') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: honeydew;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .faq-section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: honeydew;
+        }
+        .faq-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .faq-section p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .faq-section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #006064;
+            color: honeydew;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: honeydew;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .equipment {
+            list-style-type: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .equipment li {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .equipment li img {
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#zabnica">Żabnica</a>
+        <a href="#mala-fatra">Mała Fatra</a>
+        <a href="#szlaki">Szlaki</a>
+        <a href="#equipment">Wyposażenie</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+    <div class="hero">
+        <div>
+            <h1>Trip do Żabnicy</h1>
+            <p></p>
+        </div>
+    </div>
+    <section id="zabnica" class="section">
+        <h2>Żabnica</h2>
+        <p>Żabnica to malownicza wieś położona w Polsce, niedaleko granicy ze Słowacją. Znana jest z pięknych krajobrazów i swych dzikch gór, jednych z najbardziej dzikich i nieskażonych obszarów górskich w regionie.</p>
+        <img src="https://bi.im-g.pl/im/64/71/1c/z29823588AMP,Beskid-Zywiecki-na-weekend---ktoredy-wiedzie-droga.jpg" alt="Żabnica">
+        <p>Żabnica oferuje wiele atrakcji dla miłośników przyrody i turystyki pieszej. W okolicy znajdują się liczne szlaki turystyczne, które prowadzą przez malownicze doliny, lasy i szczyty górskie.</p>
+    </section>
+    <section id="mala-fatra" class="section" style="background-color: #e0f2f1;">
+        <h2>Mała Fatra</h2>
+        <p>Mała Fatra to pasmo górskie położone na pograniczu Polski i Słowacji. Charakteryzuje się dzikimi krajobrazami, głębokimi dolinami i wysokimi szczytami. Jest to idealne miejsce dla miłośników przygody i dzikiej natury.</p>
+        <img src="https://media.brate.com/images/europa/slowacja/mala-fatra/mala-fatra-11.jpeg" alt="Mała Fatra">
+        <p>W Małej Fatrze można znaleźć wiele ciekawych szlaków turystycznych, które prowadzą przez najpiękniejsze miejsca w regionie. Od wędrówek po wysokich grzbietach, przez spacerowanie w dolinach, po wspinaczki na skaliste szczyty – Mała Fatra oferuje coś dla każdego.</p>
+    </section>
+    <section id="szlaki" class="section">
+        <h2>Szlaki</h2>
+        <div class="trail">
+            <h3>Żabnicki Szlak</h3>
+            <img src="https://cdn.discordapp.com/attachments/919300405576499201/1247968688959914085/image.png?ex=6661f4e9&is=6660a369&hm=38b615e88b2fa2f6d9ff37de39f02a481e87e9f4f553b0d0712d807eb7d43069&" alt="Żabnicki Szlak">
+        </div>
+        <div class="trail">
+            <h3>Babia Góra</h3>
+            <img src="https://cdn.discordapp.com/attachments/919300405576499201/1247968768093720758/image.png?ex=6661f4fc&is=6660a37c&hm=abb6943c562ee1920cfe1ea8e839c95824484d7662d3d8412c23fee23173f481&" alt="Babia Góra">
+        </div>
+        <div class="trail">
+            <h3>Mała Fatra</h3>
+            <img src="https://cdn.discordapp.com/attachments/919300405576499201/1247968863845613649/image.png?ex=6661f513&is=6660a393&hm=52d1bc0155e6a0303c172b4e0dddb9fe140753541c2d65f4652a739b118740fa&" alt="Mala Fatra">
+        </div>
+    </section>
+    <section id="equipment" class="section" style="background-color: #f9f9f9;">
+        <h2>Wyposażenie</h2>
+        <p>Oto lista niezbędnych rzeczy, które warto zabrać na kilkudniową wyprawę w góry:</p>
+        <ul class="equipment">
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1037/1037767.png" alt="Plecak"><span>Plecak turystyczny</span></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1037/1037767.png" alt="Buty"><span>Wygodne buty trekkingowe</span></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1037/1037767.png" alt="Ubrania"><span>Odzież</span></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1037/1037767.png" alt="Woda"><span>Zapas wody i jedzenia</span></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1037/1037767.png" alt="Śpiwór"><span>Śpiwór i karimata</span></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/1037/1037767.png" alt="Namiot"><span>Namiot</span></li>
+        </ul>
+    </section>
+    <section id="faq" class="faq-section">
+        <h2>FAQ</h2>
+        
+        <div>
+            <img src="https://cdn.discordapp.com/attachments/919300405576499201/1247972242332192889/image.png?ex=6661f838&is=6660a6b8&hm=a2a73a68e0ac3344a02ff77e5764014ed4ff9a4a7359155ea7954cce10ec0de1&" alt="Twoje zdjęcie">
+        </div>
+    </section>
+    <footer class="footer">
+        <small><a href="#zabnica">Żabnica</a> • <a href="#mala-fatra">Mała Fatra</a> • <a href="#szlaki">Szlaki</a> • <a href="#equipment">Wyposażenie</a> • <a href="#faq">FAQ</a></small>
+        <p>Jak sie nie zlozymy na gaz na medwedy to its over.</p>
+    </footer>
+</body>
+</html>
